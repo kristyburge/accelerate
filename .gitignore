@@ -1,6 +1,3 @@
-# Ignore the following
-.htaccess
-
 *~
 .DS_Store
 .svn
@@ -65,3 +62,5 @@ wp-content/mysql.sql
 *.asf
 *.wmv
 *.avi
+.htaccess
+wp-content/uploads/
