@@ -22,6 +22,8 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+/*Home page blog posts*/
+
 .blog-post {
 	width: 50%; 
 }
@@ -45,6 +47,40 @@
 	font-weight: bold;
 	color: #45ac9d; 
 	text-transform: uppercase; 
+}
+
+/*Case Studies */
+
+article.case-study {
+    margin: 40px 0 0; 
+}
+
+aside.case-study-sidebar {
+    float: left; 
+    width: 314px;
+    margin: 0 40px 0 0;
+}
+
+h5 {
+    font-size: 15px;
+    line-height: 1.3333333333;
+    color: #a6a6a6;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+h6 {
+    margin: 20px 0;
+}
+
+div.case-study-images {
+    float: left; 
+    width: 606px; 
+}
+
+div.case-study-images img {
+    margin-bottom: 50px; 
+    border: 1px solid #ddd; 
 }
 
 
