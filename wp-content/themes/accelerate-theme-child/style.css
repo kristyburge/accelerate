@@ -85,3 +85,49 @@ div.case-study-images img {
 
 
 
+/*** Featured Work Section for the Homepage **/
+
+.homepage-features {
+    margin-top: 30px;
+}
+
+.featured-work {
+    overflow: auto; 
+	margin: 0 0 93px;
+}
+
+.featured-work h4 {
+	font-family:'Montserrat';
+	text-transform:uppercase;
+	text-align:center;
+	margin:0 0 40px;
+}
+
+.featured-work ul {
+    margin: 0; 
+}
+
+.individual-featured-work {
+    list-style: none;
+    float: left; 
+    width: 31%;
+    margin: 0 3.5% 0 0;
+}
+
+.individual-featured-work:nth-child(3n) {
+    margin: 0;
+    width: 31%;
+}
+
+.individual-featured-work h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.individual-featured-work figure {
+    text-align: center;
+	max-height: 221px;
+	overflow: hidden;
+}
