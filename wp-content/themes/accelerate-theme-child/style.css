@@ -174,3 +174,49 @@ div.case-study-imgs {
 .case-study-imgs img {
     margin: 0 0 87px;
 }
+
+
+/***** CONTACT PAGE *****/
+
+.page-id-47342 .site-content {
+	width: 615px;
+}
+
+.ninja-forms-cont {
+    padding-top: 6px;
+}
+
+#ninja_forms_field_1_div_wrap {
+	float: left; 
+	width: 50%;
+	padding-right: 11px; 
+}
+
+#ninja_forms_field_2_div_wrap {
+	width: 50%; 
+	float: right;
+	padding-left: 11px; 
+}
+
+.ninja-forms-form-wrap input[type="submit"] {
+    background: #45ab9d;
+    color: #fff;
+    width: 207px;
+    height: 55px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Montserrat'; 
+}
+
+.text-wrap.label-above label, .textarea-wrap.label-above label {
+    font-size: .9em;
+    font-weight: normal;
+}
+
+.text-wrap.label-above label, .textarea-wrap.label-above label {
+	padding: 6px 0;
+}
+
+#nf_submit_1 {
+	text-align: right; 
+}
