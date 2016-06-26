@@ -220,3 +220,134 @@ div.case-study-imgs {
 #nf_submit_1 {
 	text-align: right; 
 }
+
+
+/*********
+ABOUT PAGE
+*********/
+
+.about-hero {
+    background: url("img/taxi-photo.jpg") center bottom no-repeat;
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.accelerate {
+    color: #45ac9d; 
+}
+
+.about-text p {
+    color: #fff; 
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;   
+    display: table-cell; 
+    vertical-align: middle;
+    padding: 7% 23%;
+}
+
+h4.about {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 25px;
+}
+
+p.lead {
+    text-align: center; 
+    margin: 0;
+}
+
+.row:first-child {
+  margin: 70px 0;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-sm-8 {
+    width: 66.66666667%;
+    /*   outline: 2px dotted yellow;  */
+    height: 250px; 
+    margin-bottom: 10px; 
+}
+
+
+.col-sm-8 > div.description {
+  display: table-cell; 
+  height: 221px; 
+  vertical-align: middle;
+}
+
+.col-sm-4 {
+    width: 33.33333333%;
+    /*   outline: 2px dotted blue;  */
+    height: 250px; 
+    margin-bottom: 10px;
+}
+
+.col-sm-4 > img {
+  display: block; 
+  margin: auto;
+}
+
+.clearfix:after {
+    clear: both; 
+}
+
+button {
+    background: #45ab9d;
+    color: #fff;
+    width: 207px;
+    height: 55px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Montserrat'; 
+}
+
+
+.call-to-action {
+    width: 960px; 
+    margin: 0 auto; 
+    border-top: 1px dotted #e3e1e1; 
+    padding-top: 40px; 
+    height: 100%;
+    margin-top: 85%;
+}
+
+.call-to-action p {
+    float: left; 
+    padding: 0 15%; 
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px; 
+}
+
+.call-to-action button {
+    margin: 10px 0; 
+}
+
+
+
+/* MEDIA QUERIES FOR ABOUT PAGE COLUMNS BASED OFF BOOTSTRAP*/
+
+@media (min-width: 768px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+
+
+
+
+/*
+* { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 2px dotted orange }
+* * * * { outline: 2px dotted blue }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 1px solid green }
+* * * * * * * { outline: 1px solid orange }
+* * * * * * * * { outline: 1px solid blue }
+*/
