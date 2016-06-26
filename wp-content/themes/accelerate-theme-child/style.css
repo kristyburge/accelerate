@@ -16,6 +16,8 @@
 
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
+    height: 35px;
+    padding: 17px;
 }
 
 .button {
@@ -38,14 +40,15 @@
 	text-transform: uppercase;
 }
 
-.nav-menu li:hover {
-	border-bottom: 1px solid;
+.nav-menu li:hover, 
+.nav-menu li:focus {
+	font-weight: bold;
 }
 
-.nav-menu > li.current_page_item a, .navbar-nav > li.current_page_parent a, .navbar-nav > li a:hover {
-    border-bottom: 1px solid #fff; 
+.nav-menu > li.current_page_item a, .navbar-nav > li.current_page_parent a, .navbar-nav > li a:hover, 
+.nav-menu > li.current-menu-item {
+    font-weight: bold; 
 }
-
 
 
 /*Home page blog posts*/
@@ -256,13 +259,31 @@ ABOUT PAGE
     background: url("img/taxi-photo.jpg") center bottom no-repeat;
     height: 300px;
     background-size: cover;
+    width: 100%; 
+    display: table; 
+    position: relative; 
     margin-bottom: 50px;
+    z-index: 99; 
 }
 
 .accelerate {
     color: #45ac9d; 
 }
 
+.about-text > p {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10% 23%;
+    margin: 0;
+    position: relative;
+    z-index: 10; 
+}
+
+/*
 .about-text p {
     color: #fff; 
     font-size: 21px;
@@ -272,6 +293,7 @@ ABOUT PAGE
     vertical-align: middle;
     padding: 7% 23%;
 }
+*/
 
 h4.about {
     font-family: 'Montserrat';
@@ -353,6 +375,7 @@ button {
 
 .call-to-action button {
     margin: 10px 0; 
+    font-size: 20px; 
 }
 
 
