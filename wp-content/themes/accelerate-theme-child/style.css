@@ -464,7 +464,8 @@ div.fourohfour {
     text-decoration: underline;
 }
 
-.search-field {
+.search-field, 
+input[type="email"] {
     font-family: 'Open Sans', sans-serif; 
     font-size: 1.05em; 
     text-transform: lowercase; 
@@ -473,7 +474,7 @@ div.fourohfour {
     background-color: azure; 
 }
 
-.search-submit {
+input[type="submit"] {
     background: #45ac9d;
     color: #fff;
     width: 150px;
@@ -484,8 +485,16 @@ div.fourohfour {
     margin-left: 10px; 
 }
 
+.search-form input {
+    margin-bottom: 15px; 
+}
+
 .screen-reader-text {
     color: #fff;
+}
+
+.widget {
+    border-bottom: 1px solid #bfbfbf; 
 }
 
 /* MEDIA QUERIES FOR ABOUT PAGE COLUMNS BASED OFF BOOTSTRAP*/
