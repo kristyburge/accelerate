@@ -498,6 +498,41 @@ input[type="submit"] {
     border-bottom: 1px solid #bfbfbf; 
 }
 
+
+/*Footer*/
+
+.social-media-navigation {
+    margin-top: -20px; 
+}
+
+ul#menu-social-media-nav {
+    list-style: none;
+}
+
+ul.social-media-menu li {
+    float: left;
+    margin: 0 2px;
+    background: rgba(0,0,0,0.8);
+    width: 50px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8em;
+    border-radius: 100%; 
+    -webkit-border-radius: 100%; 
+    -moz-border-radius: 100%;
+}
+
+ul.social-media-menu li a i {
+    color: white;
+}
+
+
+ul.social-media-menu li a:hover, 
+ul.social-media-menu li a:active {
+    top: 1px; 
+    position: relative; 
+}
+
 /* MEDIA QUERIES FOR ABOUT PAGE COLUMNS BASED OFF BOOTSTRAP*/
 
 @media (min-width: 768px) {
