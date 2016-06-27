@@ -55,6 +55,7 @@
 
 .blog-post {
 	width: 50%; 
+    float: left; 
 }
 
 .blog-post h4{
@@ -76,6 +77,58 @@
 	font-weight: bold;
 	color: #45ac9d; 
 	text-transform: uppercase; 
+}
+
+/***** TWITTER WIDGET ON HOMEPAGE ****/
+
+#secondary {
+    width: 50%; 
+    float: left;
+}
+
+ul.tweets {
+    list-style: none;
+}
+
+ul.tweets::before {
+    content: "@Accelerate"; 
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+ul.tweets li {
+    font: 17px/1.65 'open sans', Arial, sans-serif;
+    margin-top: 5px; 
+}
+
+#secondary h3 {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 33px 22px;
+}
+
+li#pi_simpletwittertweets-2 {
+    list-style: none;
+}
+
+aside#pi_simpletwittertweets-2 {
+    padding: 0 20px; 
+}
+
+.recent-tweets-handle {
+    padding: 0 40px;
+    font-size: 16px; 
+    font-family: 'Montserrat'; 
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+
+footer#colophon {
+    padding-top: 10px;
 }
 
 /*** Case studies archive page ***/
@@ -283,18 +336,6 @@ ABOUT PAGE
     z-index: 10; 
 }
 
-/*
-.about-text p {
-    color: #fff; 
-    font-size: 21px;
-    font-weight: 600;
-    text-align: center;   
-    display: table-cell; 
-    vertical-align: middle;
-    padding: 7% 23%;
-}
-*/
-
 h4.about {
     font-family: 'Montserrat';
     text-transform: uppercase;
@@ -454,16 +495,3 @@ div.fourohfour {
     float: left;
 }
 
-
-    
-
-/*
-* { outline: 2px dotted red }
-* * { outline: 2px dotted green }
-* * * { outline: 2px dotted orange }
-* * * * { outline: 2px dotted blue }
-* * * * * { outline: 1px solid red }
-* * * * * * { outline: 1px solid green }
-* * * * * * * { outline: 1px solid orange }
-* * * * * * * * { outline: 1px solid blue }
-*/

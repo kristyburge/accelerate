@@ -12,6 +12,10 @@
  * @since Accelerate Marketing 1.0
  */
 
+
+$twitter_link = get_field('twitter_link'); 
+$link_name = get_field('link_name');
+
 get_header(); ?>
 
 <section class="home-page">
@@ -74,6 +78,21 @@ get_header(); ?>
 				<?php wp_reset_query(); ?><!-- reset the query -->
 		
 		</div><!-- .blog-post -->
+		
+        
+        <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+            <div id="secondary" class="widget-area" role="complementary">
+                
+                <?php dynamic_sidebar( 'sidebar-2' ); ?>
+                        
+                <a href="https://twitter.com/<?php echo $twitter_link ?>" class="recent-tweets-handle" target="_blank"><?php echo $link_name; ?><span> &rsaquo;</span></a>
+        
+            </div><!-- .widget-area -->
+            
+            
+        <?php endif; ?>
+
+
 	</div><!-- .site-content -->
 </section><!-- .recent-posts -> 
 
