@@ -116,6 +116,7 @@ li#pi_simpletwittertweets-2 {
 
 aside#pi_simpletwittertweets-2 {
     padding: 0 20px; 
+    border: none; 
 }
 
 .recent-tweets-handle {
@@ -401,7 +402,7 @@ p.lead {
     width: 960px; 
     margin: 0 auto; 
     border-top: 1px dotted #e3e1e1; 
-    padding-top: 40px; 
+    padding-top: 90px; 
     height: 100%;
     margin-top: 85%;
 }
