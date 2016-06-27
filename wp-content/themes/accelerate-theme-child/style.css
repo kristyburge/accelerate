@@ -382,7 +382,70 @@ p.lead {
 }
 
 
+/*404 page*/
+    
+.map {
+    width: 40%; 
+    margin: 115px 0; 
+}
 
+
+.map > img {
+    float: left;
+    margin: 33px 50px 15px;
+}
+ 
+.fourohfour h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 33px; 
+    color: #45ac9d; 
+    text-transform: capitalize; 
+}
+    
+.fourohfour p {
+    font-size: 1.05em;
+}
+    
+div.fourohfour {
+    float: left; 
+    width: 60%; 
+    margin: 0 0 115px; 
+}
+    
+.fourohfour a:link,
+.fourohfour a:visited {
+    color: #45ac9d;
+    font-weight: bold;
+}    
+
+.fourohfour a:hover,
+.fourohfour a:active {
+    text-decoration: underline;
+}
+
+.search-field {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 1.05em; 
+    text-transform: lowercase; 
+    border: 3px dotted #45ac9d;
+    color: #45ac9d;
+    background-color: azure; 
+}
+
+.search-submit {
+    background: #45ac9d;
+    color: #fff;
+    width: 150px;
+    height: 37px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Montserrat'; 
+    margin-left: 10px; 
+}
+
+.screen-reader-text {
+    color: #fff;
+}
 
 /* MEDIA QUERIES FOR ABOUT PAGE COLUMNS BASED OFF BOOTSTRAP*/
 
@@ -392,7 +455,7 @@ p.lead {
 }
 
 
-
+    
 
 /*
 * { outline: 2px dotted red }
