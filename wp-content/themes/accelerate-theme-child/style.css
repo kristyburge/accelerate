@@ -345,7 +345,7 @@ p.lead {
     clear: both; 
 }
 
-button {
+.button {
     background: #45ab9d;
     color: #fff;
     width: 207px;
@@ -373,10 +373,14 @@ button {
     margin-top: 20px; 
 }
 
-.call-to-action button {
-    margin: 10px 0; 
-    font-size: 20px; 
+.call-to-action > p {
+    margin: 0 0 24px;
 }
+
+.button {
+    margin: 10px 0; 
+}
+
 
 
 
