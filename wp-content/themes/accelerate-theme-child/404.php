@@ -28,7 +28,7 @@ get_header(); ?>
                 <h2>Whoops, took a wrong turn...</h2>
 
                 <p>Sorry, this page no longer exists, never existed, or has been moved. We feel like complete jerks for totally misleading you.</p>
-                <p>Feel free to take a look around our <a href="http://localhost/accelerate/blog">blog</a> or some of our featured <a href="http://localhost/accelerate/case-studies">work</a>.</p>
+                <p>Feel free to take a look around our <a href="<?php echo site_url(); ?>/blog">blog</a> or some of our featured <a href="http://localhost/accelerate/case-studies">work</a>.</p>
                 
                 <hr>
                                                 
